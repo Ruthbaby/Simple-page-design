@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#container {
+    margin: 7rem auto;
+}
+
+#container .hero {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+#container .hero img {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+#container .about {
+    background-color:  rgba(35, 27, 33, 0.25);
+    margin: auto;
+    width: 62%;
+    padding-bottom: 4rem;
+    box-shadow: 17px 23px 15px 0px rgba(0,0,0,0.8);
+}
+
+#container .about h2 {
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    text-shadow: 3px 3px 4px rgba(101, 150, 150, 1);
+}
+
+#container .about ul {
+    margin-left: 2rem;
+    list-style: none;
+    font-size: 16px;
+}
+
+#container .about ul li {
+    margin-top: 1rem;
+    width: 96%;
+    line-height: 1.2rem;
+}
+
+span {
+    font-weight: bold;
+}
